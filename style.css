@@ -1,0 +1,67 @@
+.container {
+    box-sizing: border-box;
+}
+
+.resizable {
+    border: 2px solid black;
+    overflow: auto;
+    resize: both;
+    margin: 10px auto;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+
+}
+
+#div2 {
+    padding: 1rem;
+    box-sizing: border-box;
+    color: #417477
+}
+
+.col-1 {
+    color: #2d3a2a;
+
+}
+
+.col-1 img {
+    width: 20rem;
+    float: right;
+    padding-left: 0.5rem;
+
+}
+
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+
+#div3 {
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+    .d-flex {
+        flex-direction: column;
+    }
+}
+
+/* Ipad devices (above 577px and below 768px) */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .d-flex {
+        flex-direction: column;
+    }
+}
